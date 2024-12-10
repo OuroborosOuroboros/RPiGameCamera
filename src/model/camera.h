@@ -10,7 +10,6 @@
 
 #include <stddef.h>
 
-void update_date_and_reset_counter(char *last_date, size_t date_size, int *counter);
 void generate_filename(const char *base_dir, const char *prefix, const char *extension, char *buffer, size_t size);
 int capture_image(const char* filename);
 int capture_video(const char* filename, int duration);

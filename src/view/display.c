@@ -21,7 +21,8 @@ static const char *log_templates[] = {
     [MSG_LED_ON] = "LED turned on (GPIO %d).",
     [MSG_LED_OFF] = "LED turned off (GPIO %d).",
     [MSG_PIR_INIT] = "PIR Sensor configured.",
-    [MSG_GPIO_TERMINATED] = "GPIO terminated. Exiting..."
+    [MSG_GPIO_TERMINATED] = "GPIO terminated. Exiting...",
+    [MSG_PHOTOCELL_READING] = "Photocell reading: %d (Threshold: %d)"
 };
 
 void log_message(LogLevel level, LogMessage message, ...){

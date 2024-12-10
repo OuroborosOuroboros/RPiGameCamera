@@ -4,7 +4,7 @@
  * main.c - driver for game camera 
  */
 
-#include "system/system.h"
+#include "src/system/system.h"
 #include <unistd.h>
 
 int main(){

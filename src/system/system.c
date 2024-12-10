@@ -7,6 +7,7 @@
 #include "system.h"
 #include "../model/led.h"
 #include "../model/sensor.h"
+#include "../model/photocell.h"
 #include "../controller/controller.h"
 #include "../view/display.h"
 #include <pigpio.h>
@@ -30,12 +31,15 @@ void setup(){
     gpioSetMode(IR_LED, PI_OUTPUT);
     gpioWrite(IR_LED, PI_LOW);
     setup_sensor(PIR_SENSOR, handle_motion);
+
+    gpioSetMode(PHOTO_SENSOR, PI_INPUT);
 }
 
 void cleanup(){
     gpioSetAlertFunc(PIR_SENSOR, NULL);
     gpioSetMode(PIR_SENSOR, PI_INPUT);
     gpioSetMode(IR_LED, PI_INPUT);
+    gpioSetMode(PHOTO_SENSOR, PI_INPUT);
     gpioTerminate();
     log_message(LOG_INFO, MSG_GPIO_TERMINATED);
 }

@@ -13,18 +13,19 @@ CFLAGS = -Wall -g
 LDFLAGS = -lpigpio -lrt
 
 # Directories
-SRC_DIR = .
+SRC_DIR = ./src
 CONTROLLER_DIR = $(SRC_DIR)/controller
 MODEL_DIR = $(SRC_DIR)/model
 VIEW_DIR = $(SRC_DIR)/view
 SYSTEM_DIR = $(SRC_DIR)/system
 
 # Source Files
-SRC = $(SRC_DIR)/main.c \
+SRC = ./main.c \
 	  $(CONTROLLER_DIR)/controller.c \
 	  $(MODEL_DIR)/camera.c \
 	  $(MODEL_DIR)/led.c \
 	  $(MODEL_DIR)/sensor.c \
+	  $(MODEL_DIR)/photocell.c \
 	  $(VIEW_DIR)/display.c \
 	  $(SYSTEM_DIR)/system.c
 
