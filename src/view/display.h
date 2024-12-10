@@ -28,7 +28,8 @@ typedef enum {
     MSG_LED_ON,
     MSG_LED_OFF,
     MSG_PIR_INIT,
-    MSG_GPIO_TERMINATED
+    MSG_GPIO_TERMINATED,
+    MSG_PHOTOCELL_READING
 } LogMessage;
 
 // Function to log messages
