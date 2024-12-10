@@ -8,6 +8,7 @@
 #include "../model/camera.h"
 #include "../model/led.h"
 #include "../view/display.h"
+#include "../model/photocell.h"
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
@@ -39,20 +40,30 @@ void capture_media(const char *base_dir, const char *prefix, int is_video, const
     }
 }
 
+void capture_based_on_mode() {
+    if (capture_mode == CAPTURE_MODE_IMAGE) {
+        capture_media(BASE_DIR, "img", 0, "jpg", 0); // Duration is 0 for images
+    } else if (capture_mode == CAPTURE_MODE_VIDEO) {
+        capture_media(BASE_DIR, "vid", 1, "h264", VIDEO_DURATION_MS);
+    }
+}
+
 void handle_motion(int gpio, int level, uint32_t tick){
     if(level == 1){
         log_message(LOG_INFO, MSG_MOTION_DETECTED, gpio, level, tick);
 
-        led_on(IR_LED);
+        int dark = is_dark();
 
-        if(capture_mode == CAPTURE_MODE_IMAGE){
-            capture_media(BASE_DIR, "img", 0, "jpg");
-        } else if (capture_mode == CAPTURE_MODE_VIDEO) {
-            capture_media(BASE_DIR, "vid", 1, VIDEO_DURATION_MS, "h264");
+        if(dark){
+            led_on(IR_LED);
         }
-            
+
+        capture_based_on_mode();
+                
         usleep(3000000);
 
-        led_off(IR_LED);
+        if(dark){
+            led_off(IR_LED);
+        }
     }
 }
