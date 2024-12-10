@@ -20,7 +20,7 @@ typedef enum {
 } CaptureMode;
 
 void set_capture_mode(CaptureMode mode);
-void capture_media(const char *base_dir, const char *prefix, int is_video, int duration);
+void capture_media(const char *base_dir, const char *prefix, int is_video, const char *extension, int duration);
 void handle_motion(int gpio, int level, uint32_t tick);
 
 #endif // CONTROLLER_H
