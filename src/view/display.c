@@ -17,6 +17,7 @@ static const char *log_templates[] = {
     [MSG_IMAGE_CAPTURED_FAILED] = "Failed to capture image.",
     [MSG_VIDEO_CAPTURED] = "Video captured successfully: %s",
     [MSG_VIDEO_CAPTURED_FAILED] = "Failed to capture video",
+    [MSG_INVALID_CAPTURE_MODE] = "Invalid capture mode selected.",
     [MSG_LED_ON] = "LED turned on (GPIO %d).",
     [MSG_LED_OFF] = "LED turned off (GPIO %d).",
     [MSG_PIR_INIT] = "PIR Sensor configured.",

@@ -9,6 +9,6 @@
 
 #include <pigpio.h>
 
-void setup_sensor(int pin, gpioAlertFunc_t callback)
+void setup_sensor(int pin, gpioAlertFunc_t callback);
 
 #endif

@@ -7,6 +7,8 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 
+#define PIR_SENSOR 4
+
 #include <signal.h>
 
 void sigint_handler(int signal);
