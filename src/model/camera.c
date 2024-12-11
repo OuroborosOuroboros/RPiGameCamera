@@ -26,7 +26,7 @@ void generate_filename(const char *base_dir, const char *prefix, const char *ext
 // Capture an image
 int capture_image(const char* filename){
     char command[200];
-    snprintf(command, sizeof(command), "libcamera-still -o %s --timeout 1000", filename);
+    snprintf(command, sizeof(command), "libcamera-still -o %s --timeout 1000 > /dev/null 2>&1", filename);
     int ret = system(command);
     if (ret == -1){
         log_message(LOG_ERROR, MSG_IMAGE_CAPTURED_FAILED);
@@ -40,7 +40,7 @@ int capture_image(const char* filename){
 // Capture a video
 int capture_video(const char* filename, int duration){
     char command[200];
-    snprintf(command, sizeof(command), "libcamera-vid -o %s --timeout %d", filename, duration);
+    snprintf(command, sizeof(command), "libcamera-vid -o %s --timeout %d > /dev/null 2>&1", filename, duration);
     int ret = system(command);
     if (ret == -1){
         log_message(LOG_ERROR, MSG_VIDEO_CAPTURED_FAILED);

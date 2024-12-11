@@ -5,11 +5,11 @@
  */
 
 #include "photocell.h"
-#include "view/display.h"
+#include "../view/display.h"
 #include <pigpio.h>
 
 int is_dark(){
     int reading = gpioRead(PHOTO_SENSOR);
-    log_message(LOG_INFO, MSG_PHOTOCELL_READING);
+    log_message(LOG_INFO, MSG_PHOTOCELL_READING, reading, DARKNESS_THRESHOLD);
     return reading < DARKNESS_THRESHOLD;
 }

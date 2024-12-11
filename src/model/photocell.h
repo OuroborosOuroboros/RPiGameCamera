@@ -7,8 +7,8 @@
 #ifndef PHOTOCELL_H
 #define PHOTOCELL_H
 
-#define PHOTO_SENSOR 16
-#define DARKNESS_THRESHOLD 500
+#define PHOTO_SENSOR 17
+#define DARKNESS_THRESHOLD 1
 
 int is_dark();
 
