@@ -9,9 +9,9 @@
 
 #include <stdint.h>
 
-#define IR_LED 18
+#define IR_LED 18 
 #define BASE_DIR "/home/daveyg/media"
-#define FILENAME_BUFFER_SIZE 256
+#define FILENAME_BUFFER_SIZE 256 
 #define VIDEO_DURATION_MS 150000 // 15 seconds
 
 typedef enum {

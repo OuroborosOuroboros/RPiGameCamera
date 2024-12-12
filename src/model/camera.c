@@ -17,7 +17,7 @@ void generate_filename(const char *base_dir, const char *prefix, const char *ext
     time_t now = time(NULL);
     struct tm *t = localtime(&now);
 
-    // Generate Filename
+    //Print Filename created based on current time and filepath
     snprintf(buffer, size, "%s/%s_%02d%02d%02d_%02d%02d%02d.%s", base_dir, prefix, 
             t->tm_year %100, t->tm_mon +1, t->tm_mday, t->tm_hour, 
             t->tm_min, t->tm_sec, extension);
@@ -26,7 +26,9 @@ void generate_filename(const char *base_dir, const char *prefix, const char *ext
 // Capture an image
 int capture_image(const char* filename){
     char command[200];
+    // buffered character array for system call
     snprintf(command, sizeof(command), "libcamera-still -o %s --timeout 1000 > /dev/null 2>&1", filename);
+    // use a system call to capture image with libcamera library
     int ret = system(command);
     if (ret == -1){
         log_message(LOG_ERROR, MSG_IMAGE_CAPTURED_FAILED);
@@ -40,7 +42,9 @@ int capture_image(const char* filename){
 // Capture a video
 int capture_video(const char* filename, int duration){
     char command[200];
+    // buffered character array for system call
     snprintf(command, sizeof(command), "libcamera-vid -o %s --timeout %d > /dev/null 2>&1", filename, duration);
+    // use a system call to capture image with libcamera library
     int ret = system(command);
     if (ret == -1){
         log_message(LOG_ERROR, MSG_VIDEO_CAPTURED_FAILED);

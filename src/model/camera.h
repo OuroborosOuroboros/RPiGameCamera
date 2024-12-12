@@ -14,4 +14,4 @@ void generate_filename(const char *base_dir, const char *prefix, const char *ext
 int capture_image(const char* filename);
 int capture_video(const char* filename, int duration);
 
-#endif 
+#endif // CAMERA_H 

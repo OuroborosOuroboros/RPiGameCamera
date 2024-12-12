@@ -11,4 +11,4 @@
 
 void setup_sensor(int pin, gpioAlertFunc_t callback);
 
-#endif
+#endif // SENSOR_H

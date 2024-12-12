@@ -19,4 +19,4 @@ void cleanup();
 
 extern volatile sig_atomic_t signal_received;
 
-#endif
+#endif // SYSTEM_H

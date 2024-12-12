@@ -15,12 +15,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Signal flag
 volatile sig_atomic_t signal_received = 0;
 
+// When CTRL+C is entered signal flag is changed
 void sigint_handler(int signal){
     signal_received = 1;
 }
 
+// Initializes GPIO and Sets Pins to ready state
 void setup(){
     if(gpioInitialise() == PI_INIT_FAILED){
         log_message(LOG_ERROR, MSG_GPIO_INIT_FAILURE);
@@ -30,11 +33,15 @@ void setup(){
     
     gpioSetMode(IR_LED, PI_OUTPUT);
     gpioWrite(IR_LED, PI_LOW);
-    setup_sensor(PIR_SENSOR, handle_motion);
+    // PIR calls handle_motion when a state is changed (movement is detected)
+    setup_sensor(PIR_SENSOR, handle_motion); 
 
     gpioSetMode(PHOTO_SENSOR, PI_INPUT);
 }
 
+/* Sets all pins to a safe state and prints message to terminal indicating such
+ *  method called prior to terminating program
+ */ 
 void cleanup(){
     gpioSetAlertFunc(PIR_SENSOR, NULL);
     gpioSetMode(PIR_SENSOR, PI_INPUT);

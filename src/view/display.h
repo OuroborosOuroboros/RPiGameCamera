@@ -5,7 +5,6 @@
  */
 
 #ifndef DISPLAY_H
-
 #define DISPLAY_H
 
 // Log Levels
@@ -35,4 +34,4 @@ typedef enum {
 // Function to log messages
 void log_message(LogLevel level, LogMessage message, ...);
 
-#endif 
+#endif // DISPLAY_H
