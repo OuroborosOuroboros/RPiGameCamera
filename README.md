@@ -10,3 +10,7 @@ Final Project
 
 
 # References
+
+## Contact 
+For questions or feedback, please contact Davey at [dgetch48@gmail.com](mailto:dgetch48@gmail.com).
+
