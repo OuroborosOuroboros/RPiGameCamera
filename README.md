@@ -1,4 +1,4 @@
-#**RPi Game Camera**<br>
+#RPi Game Camera<br>
 Davey Getchell<br>
 CS7680 Programming Embedded Systems<br>
 Final Project<br>
