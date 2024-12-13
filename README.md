@@ -1,7 +1,7 @@
 **RPi Game Camera**
-Davey Getchell
-CS7680 Programming Embedded Systems
-Final Project
+Davey Getchell<br>
+CS7680 Programming Embedded Systems<br>
+Final Project<br>
 12/13/2024
 
 # Usage
