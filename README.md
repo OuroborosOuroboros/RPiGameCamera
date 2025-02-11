@@ -4,7 +4,7 @@
 **Assignment:** Final Project<br>
 **Due Date:** 12/13/2024
 
-# Overview
+## Overview
 This project is a proof-of-concept for a a motion-activated, solar-powered game camera, built using a Raspberry Pi 4, PIR motion sensor and infrared LEDs. The system is designed to to capture images/videos in remote locations, with a focus on sustainable energy use and low-power operation. 
 
 The prototype demonstrates the feasiblity of building a custom wildlife camear using cost-effective, off-the-shelf components, providing a foundation for hobbyists and researchers interested in DIY motion-based camera systems. 
@@ -20,7 +20,7 @@ Full Technical Report available in [`/reports`](reports/)
 ## **Project Limitations & Future Work**
 - See full discussion of limitations and future work in [`reports`](reports/)
 
-# Hardware Requirements
+## Hardware Requirements
 - **Rasperry Pi 4** (or similar device)
 - **Raspbery Pi NoIR Camera Module** (or similar camera module)
 - **PIR Motion Sensor**
@@ -42,7 +42,7 @@ Full Technical Report available in [`/reports`](reports/)
 
 --- 
 
-# Usage
+## Usage
 1. **Compile**: Use `make` to compile the assignments.
 2. **Clean up**: Use `make clean` to remove compiled files.
 
@@ -56,6 +56,6 @@ For questions or feedback, please contact me at [dgetch48@gmail.com](mailto:dget
 - Wireless media transfer
 - Weatherproof casing
 
-# License
+## License
 This project is open-source and available under the **MIT License** see the [LICENSE](LICSENSE) file for details. 
 
