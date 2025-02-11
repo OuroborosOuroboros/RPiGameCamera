@@ -22,7 +22,7 @@ Full Technical Report available in [`/reports`](reports/)
 - Light level measurements
 - Power consumption testing
 - Wireless media transfer
-- Weatherproof casing
+- Weatherproof casing<br>
 See full discussion of limitations and future work in [`/reports`](reports/)
 
 ## Hardware Requirements
