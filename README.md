@@ -9,8 +9,6 @@ Final Project<br>
 2. **Clean up**: Use `make clean` to remove compiled files.
 
 
-# References
-
 ## Contact 
-For questions or feedback, please contact Davey at [dgetch48@gmail.com](mailto:dgetch48@gmail.com).
+For questions or feedback, please contact me at [dgetch48@gmail.com](mailto:dgetch48@gmail.com).
 
