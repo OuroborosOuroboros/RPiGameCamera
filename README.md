@@ -23,6 +23,7 @@ Full Technical Report available in [`/reports`](reports/)
 - Power consumption testing
 - Wireless media transfer
 - Weatherproof casing<br>
+
 See full discussion of limitations and future work in [`/reports`](reports/)
 
 ## Hardware Requirements
