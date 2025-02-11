@@ -5,11 +5,11 @@
 **Due Date:** 12/13/2024  
 
 ## Overview  
-This project is a **proof-of-concept** for a **motion-activated, solar-powered game camera**, built using a **Raspberry Pi 4, PIR motion sensor, and infrared LEDs**. The system is designed to **capture images/videos in remote locations**, with a focus on **sustainable energy use and low-power operation**.  
+This project is a proof-of-concept for a motion-activated, solar-powered game camera built using a Raspberry Pi 4, PIR motion sensor, and infrared LEDs. The system is designed to capture images/videos in remote locations, with a focus on sustainable energy use and low-power operation.  
 
-The prototype **demonstrates the feasibility** of building a **custom wildlife camera** using **cost-effective, off-the-shelf components**, providing a foundation for **hobbyists and researchers** interested in **DIY motion-based camera systems**.  
+The prototype demonstrates the feasibility of building a custom wildlife camera using cost-effective, off-the-shelf components, providing a foundation for hobbyists and researchers interested in DIY motion-based camera systems.  
 
-📖 **Full Technical Report** available in [`/reports`](reports/)  
+**Full Technical Report** available in [`/reports`](reports/)  
 
 ---
 
@@ -30,7 +30,7 @@ While the prototype met its primary objectives, several areas for improvement we
 - **Wireless media transfer** using Bluetooth or Wi-Fi for easier file retrieval  
 - **Weatherproof casing** to protect against outdoor conditions  
 
-📖 **See full discussion of limitations and future work** in [`/reports`](reports/)  
+**See full discussion of limitations and future work** in [`/reports`](reports/)  
 
 ---
 
@@ -44,8 +44,8 @@ While the prototype met its primary objectives, several areas for improvement we
 - Voltage regulator  
 - Supporting components: Resistors, transistors, jumper wires, breadboard  
 
-📌 **Diagrams** available in [`/diagrams`](diagrams/)  
-📌 **Component Datasheets** available in [`/datasheets`](datasheets/)  
+**Diagrams** available in [`/diagrams`](diagrams/)  
+**Component Datasheets** available in [`/datasheets`](datasheets/)  
 
 ---
 
