@@ -37,7 +37,7 @@ Full Technical Report available in [`/reports`](reports/)
 - **Raspberry Pi OS Lite** (for lightweight operation)
 - **Makefile** (for compiling and managing builds)
 
-**Diagrams** available in [`/diagrams`](diagrams/)
+**Diagrams** available in [`/diagrams`](diagrams/) <br>
 **Component Datasheets** available in [`/datasheets`](datasheets/)
 
 --- 
