@@ -17,8 +17,6 @@ Full Technical Report available in [`/reports`](reports/)
 - Lightweight software design in C following the Model-View-Controller (MVC) pattern
 - Local storage of images/videos
 
----
-
 ## **Project Limitations & Future Work**
 - See full discussion of limitations and future work in [`reports`](reports/)
 
@@ -32,15 +30,17 @@ Full Technical Report available in [`/reports`](reports/)
 - **Voltage regulator**
 - **Supporting components**: Resistors, transistors, jumper wires, breadboard
 
-**Diagrams** available in [`/diagrams`](diagrams/)
-**Component Datasheets** available in [`/datasheets`](datasheets/)
-
 ## **Software & Dependencies**
 - **C Programming Language** (compiled with gcc)
 - **pigpio** (for GPIO control)
 - **libcamera** (for camera interaction)
 - **Raspberry Pi OS Lite** (for lightweight operation)
 - **Makefile** (for compiling and managing builds)
+
+**Diagrams** available in [`/diagrams`](diagrams/)
+**Component Datasheets** available in [`/datasheets`](datasheets/)
+
+--- 
 
 # Usage
 1. **Compile**: Use `make` to compile the assignments.
