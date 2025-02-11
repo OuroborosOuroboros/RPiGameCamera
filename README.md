@@ -18,7 +18,12 @@ Full Technical Report available in [`/reports`](reports/)
 - Local storage of images/videos
 
 ## **Project Limitations & Future Work**
-- See full discussion of limitations and future work in [`/reports`](reports/)
+- Enhanced IR LED array
+- Light level measurements
+- Power consumption testing
+- Wireless media transfer
+- Weatherproof casing
+See full discussion of limitations and future work in [`/reports`](reports/)
 
 ## Hardware Requirements
 - **Rasperry Pi 4** (or similar device)
@@ -48,13 +53,6 @@ Full Technical Report available in [`/reports`](reports/)
 
 ## Contact 
 For questions or feedback, please contact me at [dgetch48@gmail.com](mailto:dgetch48@gmail.com).
-
-## Future Improvements
-- Enhanced IR LED array
-- Light level measurements
-- Power consumption testing
-- Wireless media transfer
-- Weatherproof casing
 
 ## License
 This project is open-source and available under the **MIT License** see the [LICENSE](LICSENSE) file for details. 
