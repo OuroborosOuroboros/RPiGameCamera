@@ -1,60 +1,74 @@
-# RPi Game Camera<br>
-**Author:** Davey Getchell<br>
-**Course:** CS7680 Programming Embedded Systems<br>
-**Assignment:** Final Project<br>
-**Due Date:** 12/13/2024
+# RPi Game Camera  
+**Author:** Davey Getchell  
+**Course:** CS7680 – Programming Embedded Systems  
+**Assignment:** Final Project  
+**Due Date:** 12/13/2024  
 
-## Overview
-This project is a proof-of-concept for a a motion-activated, solar-powered game camera, built using a Raspberry Pi 4, PIR motion sensor and infrared LEDs. The system is designed to to capture images/videos in remote locations, with a focus on sustainable energy use and low-power operation. 
+## Overview  
+This project is a **proof-of-concept** for a **motion-activated, solar-powered game camera**, built using a **Raspberry Pi 4, PIR motion sensor, and infrared LEDs**. The system is designed to **capture images/videos in remote locations**, with a focus on **sustainable energy use and low-power operation**.  
 
-The prototype demonstrates the feasiblity of building a custom wildlife camear using cost-effective, off-the-shelf components, providing a foundation for hobbyists and researchers interested in DIY motion-based camera systems. 
+The prototype **demonstrates the feasibility** of building a **custom wildlife camera** using **cost-effective, off-the-shelf components**, providing a foundation for **hobbyists and researchers** interested in **DIY motion-based camera systems**.  
 
-Full Technical Report available in [`/reports`](reports/) 
+📖 **Full Technical Report** available in [`/reports`](reports/)  
 
-# Features
-- Motion-triggered image & video capture using a PIR sensor
-- Solar Powered operation for extended outdoor use
-- Lightweight software design in C following the Model-View-Controller (MVC) pattern
-- Local storage of images/videos
+---
 
-## **Project Limitations & Future Work**
-- Enhanced IR LED array
-- Light level measurements
-- Power consumption testing
-- Wireless media transfer
-- Weatherproof casing<br>
+## Features  
+- Motion-triggered image & video capture using a PIR sensor  
+- Solar-powered operation for extended outdoor use  
+- Lightweight software design in C, following the Model-View-Controller (MVC) pattern  
+- Local storage of images/videos  
 
-See full discussion of limitations and future work in [`/reports`](reports/)
+---
 
-## Hardware Requirements
-- **Rasperry Pi 4** (or similar device)
-- **Raspbery Pi NoIR Camera Module** (or similar camera module)
-- **PIR Motion Sensor**
-- **Infrared LEDs** (for night vision)
-- **Solar compatible battery**
-- **10W 12V Solar Panel**
-- **Voltage regulator**
-- **Supporting components**: Resistors, transistors, jumper wires, breadboard
+## Project Limitations & Future Work  
+While the prototype met its primary objectives, several areas for improvement were identified:  
 
-## **Software & Dependencies**
-- **C Programming Language** (compiled with gcc)
-- **pigpio** (for GPIO control)
-- **libcamera** (for camera interaction)
-- **Raspberry Pi OS Lite** (for lightweight operation)
-- **Makefile** (for compiling and managing builds)
+- **Enhanced IR LED array** to improve nighttime visibility  
+- **Light level measurements** for optimized brightness control  
+- **Power consumption testing** to evaluate battery and solar efficiency  
+- **Wireless media transfer** using Bluetooth or Wi-Fi for easier file retrieval  
+- **Weatherproof casing** to protect against outdoor conditions  
 
-**Diagrams** available in [`/diagrams`](diagrams/) <br>
-**Component Datasheets** available in [`/datasheets`](datasheets/)
+📖 **See full discussion of limitations and future work** in [`/reports`](reports/)  
 
---- 
+---
 
-## Usage
-1. **Compile**: Use `make` to compile the assignments.
-2. **Clean up**: Use `make clean` to remove compiled files.
+## Hardware Requirements  
+- Raspberry Pi 4 (or similar device)  
+- Raspberry Pi NoIR Camera Module (or similar camera module)  
+- PIR Motion Sensor  
+- Infrared LEDs (for night vision)  
+- Solar-compatible battery  
+- 10W 12V Solar Panel  
+- Voltage regulator  
+- Supporting components: Resistors, transistors, jumper wires, breadboard  
 
-## Contact 
-For questions or feedback, please contact me at [dgetch48@gmail.com](mailto:dgetch48@gmail.com).
+📌 **Diagrams** available in [`/diagrams`](diagrams/)  
+📌 **Component Datasheets** available in [`/datasheets`](datasheets/)  
 
-## License
-This project is open-source and available under the **MIT License** see the [LICENSE](LICSENSE) file for details. 
+---
 
+## Software & Dependencies  
+- C Programming Language (compiled with `gcc`)  
+- pigpio (for GPIO control)  
+- libcamera (for camera interaction)  
+- Raspberry Pi OS Lite (for lightweight operation)  
+- Makefile (for compiling and managing builds)  
+
+---
+
+## Usage  
+1. **Compile**: Use `make` to compile the project.  
+2. **Run**: Execute `./game_camera` to start the program.  
+3. **Clean up**: Use `make clean` to remove compiled files.  
+
+---
+
+## Contact  
+For questions or feedback, please contact me at **[dgetch48@gmail.com](mailto:dgetch48@gmail.com)**.  
+
+---
+
+## License  
+This project is open-source and available under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
