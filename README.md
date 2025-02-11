@@ -18,7 +18,7 @@ Full Technical Report available in [`/reports`](reports/)
 - Local storage of images/videos
 
 ## **Project Limitations & Future Work**
-- See full discussion of limitations and future work in [`reports`](reports/)
+- See full discussion of limitations and future work in [`/reports`](reports/)
 
 ## Hardware Requirements
 - **Rasperry Pi 4** (or similar device)
