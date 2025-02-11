@@ -35,14 +35,14 @@ While the prototype met its primary objectives, several areas for improvement we
 ---
 
 ## Hardware Requirements  
-- Raspberry Pi 4 (or similar device)  
-- Raspberry Pi NoIR Camera Module (or similar camera module)  
-- PIR Motion Sensor  
-- Infrared LEDs (for night vision)  
-- Solar-compatible battery  
-- 10W 12V Solar Panel  
-- Voltage regulator  
-- Supporting components: Resistors, transistors, jumper wires, breadboard  
+- **Raspberry Pi 4** (or similar device)  
+- **Raspberry Pi NoIR Camera Module** (or similar camera module)  
+- **PIR Motion Sensor**  
+- **Infrared LEDs** (for night vision)  
+- **Solar-compatible battery**  
+- **10W 12V Solar Panel**  
+- **Voltage regulator**  
+- **Supporting components:** Resistors, transistors, jumper wires, breadboard  
 
 **Diagrams** available in [`/diagrams`](diagrams/)  
 **Component Datasheets** available in [`/datasheets`](datasheets/)  
@@ -50,11 +50,11 @@ While the prototype met its primary objectives, several areas for improvement we
 ---
 
 ## Software & Dependencies  
-- C Programming Language (compiled with `gcc`)  
-- pigpio (for GPIO control)  
-- libcamera (for camera interaction)  
-- Raspberry Pi OS Lite (for lightweight operation)  
-- Makefile (for compiling and managing builds)  
+- **C Programming Language** (compiled with `gcc`)  
+- **pigpio** (for GPIO control)  
+- **libcamera** (for camera interaction)  
+- **Raspberry Pi OS Lite** (for lightweight operation)  
+- **Makefile** (for compiling and managing builds)  
 
 ---
 
