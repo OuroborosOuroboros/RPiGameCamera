@@ -9,7 +9,7 @@ This project is a proof-of-concept for a motion-activated, solar-powered game ca
 
 The prototype demonstrates the feasibility of building a custom wildlife camera using cost-effective, off-the-shelf components, providing a foundation for hobbyists and researchers interested in DIY motion-based camera systems.  
 
-**Full Technical Report** available in [`/docs/reports/Raspberry_Pi_Game_Camera_Report.pdf`](docs/reports/Raspberry_Pi_Game_Camera_Report.pdf)  
+**Full Technical Report** available in [`Raspberry_Pi_Game_Camera_Report.pdf`](docs/reports/Raspberry_Pi_Game_Camera_Report.pdf)  
 
 ---
 
@@ -30,7 +30,7 @@ While the prototype met its primary objectives, several areas for improvement we
 - **Wireless media transfer** using Bluetooth or Wi-Fi for easier file retrieval  
 - **Weatherproof casing** to protect against outdoor conditions  
 
-**See full discussion of limitations and future work** in [`/reports`](reports/)  
+**See full discussion of limitations and future work** in [`Raspberry_Pi_Game_Camera_Report.pdf`](docs/reports/Raspberry_Pi_Game_Camera_Report.pdf)
 
 ---
 
@@ -44,8 +44,8 @@ While the prototype met its primary objectives, several areas for improvement we
 - **Voltage regulator**  
 - **Supporting components:** Resistors, transistors, jumper wires, breadboard  
 
-**Diagrams** available in [`/diagrams`](diagrams/)  
-**Component Datasheets** available in [`/datasheets`](datasheets/)  
+**Diagrams** available in [`/diagrams`](docs/diagrams/)  
+**Component Datasheets** available in [`/datasheets`](docs/references/component_datasheets/)  
 
 ---
 
