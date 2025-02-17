@@ -9,7 +9,7 @@ This project is a proof-of-concept for a motion-activated, solar-powered game ca
 
 The prototype demonstrates the feasibility of building a custom wildlife camera using cost-effective, off-the-shelf components, providing a foundation for hobbyists and researchers interested in DIY motion-based camera systems.  
 
-**Full Technical Report** available in [`/reports`](reports/)  
+**Full Technical Report** available in [`/docs/reports/Raspberry_Pi_Game_Camera_Report.pdf`](reports/)  
 
 ---
 
